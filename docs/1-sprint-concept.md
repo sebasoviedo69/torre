@@ -83,11 +83,11 @@
 
     1. Create Azure WebApp
 
-        - Create NodeJs Server - 1h
-        - Create HTML Hello World - 1h
-        - Create Azure WebApp - 1h
-        - Connect Azure to GitHub for CI/CD - 1h 
-        - Deploy Azure Hello World - 2h
+        - Create NodeJs Server - 1h | Done
+        - Create HTML Hello World - 1h | Done
+        - Create Azure WebApp - 1h | Done
+        - Connect Azure to GitHub for CI/CD - 1h | Done
+        - Deploy Azure Hello World - 2h | Done
 
     2. Front-End
 
@@ -101,7 +101,7 @@
 
         - Get data using id from Torre's endpoint - 1h
         - Handle response - 1h
-        - Filter data - 1h
+        - Filter data - 1h  
         - Classify users - 2h
         - Convert user data into value colors - 2h
         - Read demo images - 1h
