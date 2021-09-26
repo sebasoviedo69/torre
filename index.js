@@ -18,6 +18,6 @@ app.get(['/', '/home', 'inicio', 'index'], function (req, res) {
 });
 
 // run the server
-var listener = app.listen(process.env.PORT || 3000, function () {
+var listener = app.listen(process.env.PORT || 80, function () {
   console.log("listening on port " + listener.address().port);
 });
