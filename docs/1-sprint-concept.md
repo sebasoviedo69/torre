@@ -43,7 +43,7 @@
 
         As: Software Developer Intern
         Action: Connect GitHub to Azure
-        Business Value: Generate Continuos Deployment and Continus Delivery in production environment
+        Business Value: Generate Continuos Integration and Continus Delivery in production environment
 
     2. Front-End
 
@@ -69,9 +69,47 @@
         Action: look for, manipulate and apply results to create a new image
         Business Value: Generate Images based on users' description
 
-    4. Stellar Lumens Service
+    4. Stellar Lumens Service (out of scope)
 
         As: Software Developer Intern
         Action: Post the info on the services
         Business Value: Create an unique record for each user on the specified blockchain
 
+
+## Architecture
+
+
+## Tasks
+
+    1. Create Azure WebApp
+
+        - Create NodeJs Server - 1h
+        - Create HTML Hello World - 1h
+        - Create Azure WebApp - 1h
+        - Connect Azure to GitHub for CI/CD - 1h 
+        - Deploy Azure Hello World - 2h
+
+    2. Front-End
+
+        - Create user form - 1h
+        - Post user data - 1h
+        - Handle requests on server side - 1h
+        - Create view to show results - 1h
+        - Create endpoint to handle results - 1h
+
+    3. Process User Information
+
+        - Get data using id from Torre's endpoint - 1h
+        - Handle response - 1h
+        - Filter data - 1h
+        - Classify users - 2h
+        - Convert user data into value colors - 2h
+        - Read demo images - 1h
+        - Merge user data with demo image - 2h
+        - Save new image - 1h
+        - Render image on client side - 2h
+      
+    4. Stellar Lumens Service (out of scope)
+        - Call Stellar Service - 1h
+        - Generate Blockchain Code - 4h
+        - Render te token id on result endpoint - 1h
