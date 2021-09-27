@@ -91,11 +91,11 @@
 
     2. Front-End
 
-        - Create user form - 1h
-        - Post user data - 1h
-        - Handle requests on server side - 1h
-        - Create view to show results - 1h
-        - Create endpoint to handle results - 1h
+        - Create user form - 1h | Done
+        - Post user data - 1h | Done
+        - Handle requests on server side - 1h | Done
+        - Create view to show results - 1h | Done
+        - Create endpoint to handle results - 1h | Done
 
     3. Process User Information
 

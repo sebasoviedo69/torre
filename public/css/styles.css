@@ -5,6 +5,27 @@ body {
     color: #f8f8f8;
 }
 
+input{
+    display: flex;
+    padding: 6px 16px 8px;
+    /*border: none!important;*/
+    background-color: transparent;
+    z-index: 1;
+    flex: 1;
+    transition: all .4s cubic-bezier(.25,.8,.25,1);
+    transition-property: font-size;
+    font-family: inherit;
+    font-size: 16px;
+    line-height: 32px;
+    resize: none;
+    color: rgba(255,255,255,.9);
+    text-shadow: 0 0 0 rgb(255 255 255 / 90%);
+    text-overflow: ellipsis;
+    border-radius: 5px;
+    border: 1px solid rgba(255,255,255,.9);
+    outline: none;
+}
+
 .btn {
     background-color: #27292d!important;
     box-shadow: 1px 1px 6px rgb(1 1 1 / 40%);
@@ -35,4 +56,9 @@ body {
     vertical-align: top;
     white-space: nowrap;
     border: 1px solid #cddc39;
+}
+
+
+.btn:hover {
+   color: rgba(255,255,255,.5);
 }

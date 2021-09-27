@@ -4,38 +4,20 @@
 <html>
     <head>
         <title>Sebastian Oviedo</title>
-
+        <%- include('partials/head') %>
     </head>
 
     <body>
+        <%- include('partials/menu') %>
         
         
-        <form id="myForm">
-
-            <input type="text" name="user" id="user">
-            <button type="submit">enviar</button>
-
+        <form id="user-form" method="post" action="/results">
+            <input type="text" name="user[id]">
+            <button class="btn" type="submit">Generate</button>
         </form>
 
-        <script>
-
-            const myForm = document.getElementById("myForm");
-
-            myForm.addEventListener('submit', function(e){
-                e.preventDefault();
-
-                const formData = new FormData(this);
-                fetch("/results", {
-                    method: 'post',
-                    body: formData
-                }).then(function (res){
-                    return res.text();
-                }).then(function (text){
-                    console.log(text);
-                }).catch(function (error) {
-                    console.log(error);
-                })
-            });
-        </script>
+        <%- include('partials/footer') %>
+        <%- include('partials/scripts') %>
+        
     </body>
 </html>

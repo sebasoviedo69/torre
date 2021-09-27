@@ -17,17 +17,15 @@ app.use(bodyParser.json());
 // routes
 
 // home 
-app.get(['/', '/home', 'inicio', 'index'], function (req, res) { 
-  
+app.get(['/', '/home', 'inicio', 'index'], function (req, res) {   
   res.render('index');
 });
 
 // results
-app.post('/results', function(req, res) {
+app.post('/results', function(req, res){
 
-  console.log("req.params.user");
-  console.log(req.body.user);
-
+  var imgPath = "imgs/mu-alien.jpg"
+  res.render('results', {imgPath: imgPath});
 });
 
 // run the server
