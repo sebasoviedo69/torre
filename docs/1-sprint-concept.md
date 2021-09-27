@@ -99,15 +99,15 @@
 
     3. Process User Information
 
-        - Get data using id from Torre's endpoint - 1h
-        - Handle response - 1h
-        - Filter data - 1h  
-        - Classify users - 2h
-        - Convert user data into value colors - 2h
-        - Read demo images - 1h
-        - Merge user data with demo image - 2h
-        - Save new image - 1h
-        - Render image on client side - 2h
+        - Get data using id from Torre's endpoint - 1h | Done
+        - Handle response - 1h | Bug
+        - Filter data - 1h  | Done
+        - Classify users - 2h | Done
+        - Convert user data into value colors - 2h | Done
+        - Read demo images - 1h | Done
+        - Merge user data with demo image - 2h | Done
+        - Save new image - 1h | Done
+        - Render image on client side - 2h | Done
       
     4. Stellar Lumens Service (out of scope)
         - Call Stellar Service - 1h
