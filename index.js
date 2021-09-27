@@ -4,6 +4,13 @@ const morgan = require("morgan");
 const path = require("path");
 const bodyParser = require("body-parser");
 const request = require("request");
+const jimp = require("jimp");
+
+const info = {
+  id: "",
+  type: ""
+
+};
 
 // app setup
 const app = express();
@@ -14,6 +21,23 @@ app.use(express.static("public"));
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(bodyParser.json());
 
+// generate image
+async function ProcessImage(info) {
+  const imgName = info.id + '_result.png';
+  const imgReadPath = path.join(__dirname, 'public/imgs/');
+  const imgSavePath = path.join(__dirname, 'public/imgs/result/', imgName);
+  const srcImgPath = path.join('/imgs/result/', imgName);
+
+  const image = await jimp.read(path.join(imgReadPath, info.type));
+  
+  image.blur(2, function(err){
+    if (err) throw err;
+  })
+  .write(imgSavePath);
+
+  return srcImgPath;
+}
+
 // routes
 
 // home 
@@ -22,9 +46,14 @@ app.get(['/', '/home', 'inicio', 'index'], function (req, res) {
 });
 
 // results
-app.post('/results', function(req, res){
+app.post('/results', async function(req, res){
 
-  var imgPath = "imgs/mu-alien.jpg"
+  const userInfo = Object.create(info);
+  userInfo.id = req.body.user.id;
+  userInfo.type = "mu-alien.jpg";
+
+  var imgPath = await ProcessImage(userInfo);
+  console.log(imgPath);
   res.render('results', {imgPath: imgPath});
 });
 
