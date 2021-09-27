@@ -1,3 +1,4 @@
+
 	
 <!DOCTYPE html>
 <html>
@@ -9,10 +10,18 @@
     <body>
         <%- include('partials/menu') %>
         
-        <div id="">
-            <img src="<%= imgPath %>" alt="user-image-result" srcset="">
-        </div>
+        <div class="container">
 
+            <section class="row d-flex pt-5 justify-content-center">
+                <div class="col-12 d-flex justify-content-center mb-5">
+                    <img class="rounded mb-5" src="<%= imgPath %>" alt="user-image-result" srcset="">
+                </div>
+            </section>
+
+        </div>
+        
         <%- include('partials/footer') %>
+        <%- include('partials/scripts') %>
+        
     </body>
 </html>

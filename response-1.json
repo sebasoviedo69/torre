@@ -1,0 +1,1120 @@
+{
+  "person": {
+    "professionalHeadline": "Multimedia Engineer",
+    "completion": 0.9412,
+    "showPhone": false,
+    "created": "2020-07-01T22:14:07Z",
+    "verified": true,
+    "flags": {
+      "benefits": false,
+      "canary": false,
+      "enlauSource": false,
+      "fake": false,
+      "featureDiscovery": false,
+      "firstSignalSent": true,
+      "signalsOnboardingCompleted": true,
+      "importingLinkedin": false,
+      "onBoarded": true,
+      "remoter": true,
+      "signalsFeatureDiscovery": true,
+      "importingLinkedinRecommendations": true,
+      "contactsImported": true,
+      "appContactsImported": false,
+      "genomeCompletionAcknowledged": true,
+      "cvImported": false,
+      "communityCreatedPrivate": false,
+      "communityCreatedClaimed": false,
+      "connectBenefitsViewed": true
+    },
+    "weight": 0,
+    "locale": "en",
+    "subjectId": 523705,
+    "picture": "https://res.cloudinary.com/torre-technologies-co/image/upload/v0/origin/starrgate/users/profile_c68ab3f19fa618f6b0ead245ad5b67482830d68f.jpg",
+    "hasEmail": true,
+    "isTest": false,
+    "name": "Juan Sebastian Oviedo Vega",
+    "links": [
+      {
+        "id": "LMgEAwWy",
+        "name": "github",
+        "address": "https://sebasoviedo69.github.io/cv/"
+      },
+      {
+        "id": "xyX7rqrj",
+        "name": "linkedin",
+        "address": "https://www.linkedin.com/in/sebastian-oviedo"
+      },
+      {
+        "id": "vN8JlD2j",
+        "name": "github",
+        "address": "https://github.com/sebasoviedo69"
+      }
+    ],
+    "location": {
+      "name": "Bogotá, Bogota, Colombia",
+      "shortName": "Bogota, Colombia",
+      "country": "Colombia",
+      "latitude": 4.7109886,
+      "longitude": -74.072092,
+      "timezone": "America/Bogota",
+      "timezoneOffSet": -18000000,
+      "placeId": "ChIJKcumLf2bP44RFDmjIFVjnSM"
+    },
+    "theme": "blue200",
+    "id": "8jpePoJy",
+    "pictureThumbnail": "https://res.cloudinary.com/torre-technologies-co/image/upload/c_fill,h_150,w_150/v0/origin/starrgate/users/profile_c68ab3f19fa618f6b0ead245ad5b67482830d68f.jpg",
+    "claimant": false,
+    "summaryOfBio": "Multimedia Engineer at the Universidad Militar Nueva Granada; I am passionate about taking on challenges and highly skills in Development, Information Analysis, Multimedia Design and Team Work. Knowledge of: Python, JS, SQL, GIT, DevOps and Software Development Lifecycle. Full time availability.",
+    "weightGraph": "https://hcti.io/v1/image/711da9ad-55c8-4e87-a7d9-9bcd2b4dd2e4",
+    "publicId": "sebasoviedo69"
+  },
+  "stats": { "jobs": 2, "education": 3, "strengths": 12, "interests": 3 },
+  "strengths": [
+    {
+      "id": "nM43O76N",
+      "code": 6080216,
+      "name": "Cloud services",
+      "proficiency": "novice",
+      "weight": 0,
+      "recommendations": 0,
+      "media": [],
+      "supra": false,
+      "created": "2021-09-21T18:43:04"
+    },
+    {
+      "id": "VjwAk7mN",
+      "code": 63253,
+      "name": "JS",
+      "proficiency": "novice",
+      "weight": 0,
+      "recommendations": 0,
+      "media": [],
+      "supra": false,
+      "created": "2021-09-21T18:42:16"
+    },
+    {
+      "id": "xM91e5zM",
+      "code": 23802,
+      "name": "HTML",
+      "proficiency": "proficient",
+      "additionalInfo": "",
+      "weight": 0,
+      "recommendations": 0,
+      "media": [],
+      "supra": false,
+      "created": "2021-01-09T19:21:12"
+    },
+    {
+      "id": "ny12BP5N",
+      "code": 9866,
+      "name": "RPA",
+      "proficiency": "proficient",
+      "weight": 0,
+      "recommendations": 0,
+      "media": [],
+      "supra": false,
+      "created": "2020-11-03T14:39:52"
+    },
+    {
+      "id": "kybWEr3N",
+      "code": 56891,
+      "name": "Web Development",
+      "proficiency": "proficient",
+      "weight": 0,
+      "recommendations": 0,
+      "media": [],
+      "supra": false,
+      "created": "2020-11-03T14:39:44"
+    },
+    {
+      "id": "ANazkxDM",
+      "code": 55965,
+      "name": "Multimedia",
+      "proficiency": "proficient",
+      "weight": 0,
+      "recommendations": 0,
+      "media": [],
+      "supra": false,
+      "created": "2020-11-03T14:38:39"
+    },
+    {
+      "id": "JyQDv7vj",
+      "code": 66959,
+      "name": "Signal Processing",
+      "proficiency": "proficient",
+      "weight": 0,
+      "recommendations": 0,
+      "media": [],
+      "supra": false,
+      "created": "2020-11-03T14:37:22"
+    },
+    {
+      "id": "9MEmBqrM",
+      "code": 1421,
+      "name": "3D Animation",
+      "proficiency": "proficient",
+      "weight": 0,
+      "recommendations": 0,
+      "media": [],
+      "supra": false,
+      "created": "2020-11-03T14:36:28"
+    },
+    {
+      "id": "VjwGPO1j",
+      "code": 26327,
+      "name": "Software",
+      "proficiency": "proficient",
+      "weight": 0,
+      "recommendations": 0,
+      "media": [],
+      "supra": false,
+      "created": "2020-11-03T14:36:10"
+    },
+    {
+      "id": "wM7naVJN",
+      "code": 28809,
+      "name": "VB.NET",
+      "proficiency": "novice",
+      "weight": 0,
+      "recommendations": 0,
+      "media": [],
+      "supra": false,
+      "created": "2020-07-01T22:18:03"
+    },
+    {
+      "id": "GNKoDqYN",
+      "code": 55317,
+      "name": "Creativity",
+      "proficiency": "proficient",
+      "weight": 0,
+      "recommendations": 0,
+      "media": [],
+      "supra": false,
+      "created": "2020-07-01T22:17:46"
+    },
+    {
+      "id": "gyYqL70y",
+      "code": 55263,
+      "name": "Committed",
+      "proficiency": "proficient",
+      "weight": 0,
+      "recommendations": 0,
+      "media": [],
+      "supra": false,
+      "created": "2020-07-01T22:17:29"
+    }
+  ],
+  "interests": [
+    {
+      "id": "gMRGPQ8j",
+      "code": 704,
+      "name": "Software Development",
+      "media": [],
+      "created": "2020-07-01T22:18:23"
+    },
+    {
+      "id": "pyomJzGM",
+      "code": 18645,
+      "name": "Marketing",
+      "media": [],
+      "created": "2020-07-01T22:18:26"
+    },
+    {
+      "id": "eyn3q83N",
+      "code": 43166,
+      "name": "Game Development",
+      "media": [],
+      "created": "2020-07-01T22:18:36"
+    }
+  ],
+  "experiences": [
+    {
+      "id": "0yzODQzN",
+      "category": "jobs",
+      "name": "Semi-Senior Engineer",
+      "organizations": [
+        {
+          "id": 353067,
+          "name": "2NV SAS",
+          "publicId": "2NVSAS",
+          "picture": "https://res.cloudinary.com/torre-technologies-co/image/upload/v1600919700/origin/bio/organizations/2NV_SAS_vwfboj.png"
+        }
+      ],
+      "responsibilities": [],
+      "fromMonth": "April",
+      "fromYear": "2020",
+      "additionalInfo": "",
+      "highlighted": true,
+      "weight": 0,
+      "verifications": 0,
+      "recommendations": 0,
+      "media": [],
+      "rank": 1,
+      "strengths": []
+    },
+    {
+      "id": "RyDOGkaj",
+      "category": "education",
+      "name": "Data Structures and Algorithms",
+      "organizations": [
+        {
+          "id": 439923,
+          "name": "UC San Diego",
+          "publicId": "UCSanDiego1",
+          "picture": "https://res.cloudinary.com/torre-technologies-co/image/upload/v1601598069/origin/bio/organizations/dqlbh91ha9nrkd9yr8sj.jpg"
+        }
+      ],
+      "responsibilities": [],
+      "fromMonth": "January",
+      "fromYear": "2020",
+      "additionalInfo": "",
+      "highlighted": true,
+      "weight": 0,
+      "verifications": 0,
+      "recommendations": 0,
+      "media": [],
+      "rank": 1,
+      "strengths": []
+    },
+    {
+      "id": "vN8ga72y",
+      "category": "jobs",
+      "name": "RPA Engineer / Developer",
+      "organizations": [
+        {
+          "id": 353067,
+          "name": "2NV SAS",
+          "publicId": "2NVSAS",
+          "picture": "https://res.cloudinary.com/torre-technologies-co/image/upload/v1600919700/origin/bio/organizations/2NV_SAS_vwfboj.png"
+        }
+      ],
+      "responsibilities": [],
+      "fromMonth": "June",
+      "fromYear": "2019",
+      "toMonth": "April",
+      "toYear": "2020",
+      "additionalInfo": "",
+      "highlighted": true,
+      "weight": 0,
+      "verifications": 0,
+      "recommendations": 0,
+      "media": [],
+      "rank": 2,
+      "strengths": []
+    },
+    {
+      "id": "gyY82L0j",
+      "category": "education",
+      "name": "Multimedia Engineer",
+      "organizations": [
+        {
+          "id": 722925,
+          "name": "Universidad Militar Nueva Granada",
+          "publicId": "UniversidadMilitarNuevaGranada1",
+          "picture": "https://res.cloudinary.com/torre-technologies-co/image/upload/v1601667800/origin/bio/organizations/evskx1pjxr7dhpj6zkql.jpg"
+        }
+      ],
+      "responsibilities": [],
+      "fromMonth": "January",
+      "fromYear": "2013",
+      "toMonth": "December",
+      "toYear": "2019",
+      "additionalInfo": "",
+      "highlighted": true,
+      "weight": 0,
+      "verifications": 0,
+      "recommendations": 0,
+      "media": [],
+      "rank": 2,
+      "strengths": []
+    },
+    {
+      "id": "qy0J3EJM",
+      "category": "education",
+      "name": "High School Diploma",
+      "organizations": [
+        {
+          "id": 614487,
+          "name": "Colegio Cooperativo La Presentación",
+          "publicId": "ColegioCooperativoLaPresentaciN",
+          "picture": "https://res.cloudinary.com/torre-technologies-co/image/upload/v1611419516/origin/bio/organizations/u1uvvzcmsdcrayrhskeg.jpg"
+        }
+      ],
+      "responsibilities": [],
+      "fromMonth": "January",
+      "fromYear": "2006",
+      "toMonth": "December",
+      "toYear": "2012",
+      "additionalInfo": "",
+      "highlighted": true,
+      "weight": 0,
+      "verifications": 0,
+      "recommendations": 0,
+      "media": [],
+      "rank": 3,
+      "strengths": []
+    }
+  ],
+  "awards": [],
+  "jobs": [
+    {
+      "id": "0yzODQzN",
+      "category": "jobs",
+      "name": "Semi-Senior Engineer",
+      "organizations": [
+        {
+          "id": 353067,
+          "name": "2NV SAS",
+          "publicId": "2NVSAS",
+          "picture": "https://res.cloudinary.com/torre-technologies-co/image/upload/v1600919700/origin/bio/organizations/2NV_SAS_vwfboj.png"
+        }
+      ],
+      "responsibilities": [],
+      "fromMonth": "April",
+      "fromYear": "2020",
+      "additionalInfo": "",
+      "highlighted": true,
+      "weight": 0,
+      "verifications": 0,
+      "recommendations": 0,
+      "media": [],
+      "rank": 1,
+      "strengths": []
+    },
+    {
+      "id": "vN8ga72y",
+      "category": "jobs",
+      "name": "RPA Engineer / Developer",
+      "organizations": [
+        {
+          "id": 353067,
+          "name": "2NV SAS",
+          "publicId": "2NVSAS",
+          "picture": "https://res.cloudinary.com/torre-technologies-co/image/upload/v1600919700/origin/bio/organizations/2NV_SAS_vwfboj.png"
+        }
+      ],
+      "responsibilities": [],
+      "fromMonth": "June",
+      "fromYear": "2019",
+      "toMonth": "April",
+      "toYear": "2020",
+      "additionalInfo": "",
+      "highlighted": true,
+      "weight": 0,
+      "verifications": 0,
+      "recommendations": 0,
+      "media": [],
+      "rank": 2,
+      "strengths": []
+    }
+  ],
+  "projects": [],
+  "publications": [],
+  "education": [
+    {
+      "id": "RyDOGkaj",
+      "category": "education",
+      "name": "Data Structures and Algorithms",
+      "organizations": [
+        {
+          "id": 439923,
+          "name": "UC San Diego",
+          "publicId": "UCSanDiego1",
+          "picture": "https://res.cloudinary.com/torre-technologies-co/image/upload/v1601598069/origin/bio/organizations/dqlbh91ha9nrkd9yr8sj.jpg"
+        }
+      ],
+      "responsibilities": [],
+      "fromMonth": "January",
+      "fromYear": "2020",
+      "additionalInfo": "",
+      "highlighted": true,
+      "weight": 0,
+      "verifications": 0,
+      "recommendations": 0,
+      "media": [],
+      "rank": 1,
+      "strengths": []
+    },
+    {
+      "id": "gyY82L0j",
+      "category": "education",
+      "name": "Multimedia Engineer",
+      "organizations": [
+        {
+          "id": 722925,
+          "name": "Universidad Militar Nueva Granada",
+          "publicId": "UniversidadMilitarNuevaGranada1",
+          "picture": "https://res.cloudinary.com/torre-technologies-co/image/upload/v1601667800/origin/bio/organizations/evskx1pjxr7dhpj6zkql.jpg"
+        }
+      ],
+      "responsibilities": [],
+      "fromMonth": "January",
+      "fromYear": "2013",
+      "toMonth": "December",
+      "toYear": "2019",
+      "additionalInfo": "",
+      "highlighted": true,
+      "weight": 0,
+      "verifications": 0,
+      "recommendations": 0,
+      "media": [],
+      "rank": 2,
+      "strengths": []
+    },
+    {
+      "id": "qy0J3EJM",
+      "category": "education",
+      "name": "High School Diploma",
+      "organizations": [
+        {
+          "id": 614487,
+          "name": "Colegio Cooperativo La Presentación",
+          "publicId": "ColegioCooperativoLaPresentaciN",
+          "picture": "https://res.cloudinary.com/torre-technologies-co/image/upload/v1611419516/origin/bio/organizations/u1uvvzcmsdcrayrhskeg.jpg"
+        }
+      ],
+      "responsibilities": [],
+      "fromMonth": "January",
+      "fromYear": "2006",
+      "toMonth": "December",
+      "toYear": "2012",
+      "additionalInfo": "",
+      "highlighted": true,
+      "weight": 0,
+      "verifications": 0,
+      "recommendations": 0,
+      "media": [],
+      "rank": 3,
+      "strengths": []
+    }
+  ],
+  "opportunities": [
+    { "id": "y1nnvqBN", "interest": "jobs", "field": "active", "data": true },
+    { "id": "MRGGK32j", "interest": "jobs", "field": "private", "data": false },
+    {
+      "id": "yd88VxGy",
+      "interest": "mentoring",
+      "field": "active",
+      "data": true
+    },
+    {
+      "id": "ykBBV22j",
+      "interest": "advising",
+      "field": "active",
+      "data": true
+    },
+    {
+      "id": "yQq4KWvy",
+      "interest": "jobs-full-time",
+      "field": "active",
+      "data": false
+    },
+    {
+      "id": "M2eoQd4N",
+      "interest": "jobs-full-time",
+      "field": "private",
+      "data": false
+    },
+    { "id": "j6q95ogM", "interest": "gigs", "field": "active", "data": true },
+    { "id": "MLmxPJQj", "interest": "gigs", "field": "private", "data": false },
+    {
+      "id": "y5vBLooN",
+      "interest": "internships",
+      "field": "active",
+      "data": true
+    },
+    {
+      "id": "NaXOZ5Dy",
+      "interest": "internships",
+      "field": "private",
+      "data": false
+    },
+    {
+      "id": "jrAPYkgM",
+      "interest": "hiring",
+      "field": "active",
+      "data": false
+    },
+    {
+      "id": "jA0JAlYM",
+      "interest": "internships",
+      "field": "desirable-compensation-currency",
+      "data": "USD$"
+    },
+    {
+      "id": "jpmWP5my",
+      "interest": "internships",
+      "field": "desirable-compensation-periodicity",
+      "data": "monthly"
+    },
+    {
+      "id": "MvJxk3OM",
+      "interest": "internships",
+      "field": "desirable-compensation-amount",
+      "data": 1000
+    },
+    {
+      "id": "MqeDGapM",
+      "interest": "internships",
+      "field": "desirable-compensation-publicly-visible",
+      "data": true
+    },
+    {
+      "id": "yJZYWloy",
+      "interest": "gigs",
+      "field": "desirable-compensation-currency",
+      "data": "USD$"
+    },
+    {
+      "id": "MgQAvK7y",
+      "interest": "gigs",
+      "field": "desirable-compensation-periodicity",
+      "data": "hourly"
+    },
+    {
+      "id": "yXDr6pxy",
+      "interest": "gigs",
+      "field": "desirable-compensation-amount",
+      "data": 2000
+    },
+    {
+      "id": "N8alrdeM",
+      "interest": "gigs",
+      "field": "desirable-compensation-publicly-visible",
+      "data": true
+    },
+    {
+      "id": "MqeDGaYM",
+      "interest": "industries",
+      "field": "types",
+      "data": [
+        { "locale": "en", "name": "Data analysis" },
+        { "code": 33352, "locale": "en", "name": "Data science" },
+        { "code": 33371, "locale": "en", "name": "Entertainment" },
+        { "code": 33357, "locale": "en", "name": "Web applications" }
+      ]
+    }
+  ],
+  "languages": [
+    { "code": "es", "language": "Spanish", "fluency": "fully-fluent" },
+    { "code": "en", "language": "English", "fluency": "reading" }
+  ],
+  "personalityTraitsResults": {
+    "groups": [
+      { "id": "extraversion", "order": 0, "median": 3.5, "stddev": 0.57 },
+      {
+        "id": "openness-to-experience",
+        "order": 1,
+        "median": 3.41,
+        "stddev": 0.6
+      },
+      { "id": "conscientiousness", "order": 2, "median": 3.44, "stddev": 0.56 },
+      { "id": "agreeableness", "order": 3, "median": 2.94, "stddev": 0.58 },
+      { "id": "honesty-humility", "order": 4, "median": 3.19, "stddev": 0.62 },
+      { "id": "emotionality", "order": 5, "median": 3.43, "stddev": 0.62 }
+    ],
+    "analyses": [
+      { "groupId": "openness-to-experience", "analysis": 4 },
+      { "groupId": "honesty-humility", "analysis": 3.38 },
+      { "groupId": "agreeableness", "analysis": 3.69 },
+      { "groupId": "altruism", "analysis": 4.5 },
+      { "groupId": "conscientiousness", "analysis": 4 },
+      { "groupId": "emotionality", "analysis": 2.88 },
+      { "groupId": "extraversion", "analysis": 2.88 }
+    ]
+  },
+  "professionalCultureGenomeResults": {
+    "groups": [
+      {
+        "id": "9",
+        "text": { "common": "Being competitive" },
+        "answer": "4",
+        "order": 0,
+        "median": 2.983387237,
+        "stddev": 0.9488376744
+      },
+      {
+        "id": "12",
+        "text": { "common": "Being easygoing" },
+        "answer": "4",
+        "order": 1,
+        "median": 3.418765284,
+        "stddev": 0.7478766839
+      },
+      {
+        "id": "14",
+        "text": { "common": "Being honest" },
+        "answer": "4",
+        "order": 2,
+        "median": 3.849761837,
+        "stddev": 0.3852109863
+      },
+      {
+        "id": "20",
+        "text": { "common": "Being reflective" },
+        "answer": "4",
+        "order": 3,
+        "median": 3.200198307,
+        "stddev": 0.7582734099
+      },
+      {
+        "id": "22",
+        "text": { "common": "Being rule oriented" },
+        "answer": "4",
+        "order": 4,
+        "median": 3.119940441,
+        "stddev": 0.8511788641
+      },
+      {
+        "id": "25",
+        "text": { "common": "Being tolerant" },
+        "answer": "4",
+        "order": 5,
+        "median": 3.429954405,
+        "stddev": 0.6756940264
+      },
+      {
+        "id": "26",
+        "text": { "common": "Being willing to experiment" },
+        "answer": "4",
+        "order": 6,
+        "median": 3.336304234,
+        "stddev": 0.7469585025
+      },
+      {
+        "id": "33",
+        "text": { "common": "Having high ethical standards" },
+        "answer": "4",
+        "order": 7,
+        "median": 3.627091571,
+        "stddev": 0.6464404497
+      },
+      {
+        "id": "38",
+        "text": { "common": "Learning from mistakes" },
+        "answer": "4",
+        "order": 8,
+        "median": 3.685785863,
+        "stddev": 0.5356724665
+      },
+      {
+        "id": "42",
+        "text": { "common": "Paying attention to detail" },
+        "answer": "4",
+        "order": 9,
+        "median": 3.530555446,
+        "stddev": 0.6241323568
+      },
+      {
+        "id": "45",
+        "text": { "common": "Respecting individuals" },
+        "answer": "4",
+        "order": 10,
+        "median": 3.862969241,
+        "stddev": 0.3800380304
+      },
+      {
+        "id": "1",
+        "text": { "common": "Achievement oriented" },
+        "answer": "3",
+        "order": 11,
+        "median": 3.307087211,
+        "stddev": 0.7408654995
+      },
+      {
+        "id": "3",
+        "text": { "common": "Adaptability" },
+        "answer": "3",
+        "order": 12,
+        "median": 3.53455274,
+        "stddev": 0.6204672813
+      },
+      {
+        "id": "4",
+        "text": { "common": "Avoiding conflict" },
+        "answer": "3",
+        "order": 13,
+        "median": 3.184795276,
+        "stddev": 0.8784443312
+      },
+      {
+        "id": "6",
+        "text": { "common": "Being analytical" },
+        "answer": "3",
+        "order": 14,
+        "median": 3.390055005,
+        "stddev": 0.6916525511
+      },
+      {
+        "id": "7",
+        "text": { "common": "Being calm" },
+        "answer": "3",
+        "order": 15,
+        "median": 3.220002337,
+        "stddev": 0.7320363351
+      },
+      {
+        "id": "10",
+        "text": { "common": "Being customer oriented" },
+        "answer": "3",
+        "order": 16,
+        "median": 3.426673945,
+        "stddev": 0.7629528583
+      },
+      {
+        "id": "13",
+        "text": { "common": "Being fair" },
+        "answer": "3",
+        "order": 17,
+        "median": 3.61264673,
+        "stddev": 0.6273839106
+      },
+      {
+        "id": "15",
+        "text": { "common": "Being innovative" },
+        "answer": "3",
+        "order": 18,
+        "median": 3.391966471,
+        "stddev": 0.7194864422
+      },
+      {
+        "id": "24",
+        "text": { "common": "Being team oriented" },
+        "answer": "3",
+        "order": 19,
+        "median": 3.515253662,
+        "stddev": 0.6403773213
+      },
+      {
+        "id": "28",
+        "text": { "common": "Cooperative" },
+        "answer": "3",
+        "order": 20,
+        "median": 3.637398991,
+        "stddev": 0.5441371579
+      },
+      {
+        "id": "30",
+        "text": { "common": "Emphasizing quality" },
+        "answer": "3",
+        "order": 21,
+        "median": 3.622124519,
+        "stddev": 0.5685579656
+      },
+      {
+        "id": "34",
+        "text": { "common": "Having high expectations for performance" },
+        "answer": "3",
+        "order": 22,
+        "median": 3.490903614,
+        "stddev": 0.6463617196
+      },
+      {
+        "id": "35",
+        "text": { "common": "Having integrity" },
+        "answer": "3",
+        "order": 23,
+        "median": 3.754173109,
+        "stddev": 0.4849079849
+      },
+      {
+        "id": "39",
+        "text": { "common": "Listening to customers" },
+        "answer": "3",
+        "order": 24,
+        "median": 3.684881005,
+        "stddev": 0.5685013891
+      },
+      {
+        "id": "44",
+        "text": {
+          "common": "Putting organization's goals before unit's goals"
+        },
+        "answer": "3",
+        "order": 25,
+        "median": 2.817963301,
+        "stddev": 0.9484849627
+      },
+      {
+        "id": "47",
+        "text": { "common": "Security of employment" },
+        "answer": "3",
+        "order": 26,
+        "median": 3.169801154,
+        "stddev": 0.8803406124
+      },
+      {
+        "id": "48",
+        "text": { "common": "Sharing information freely" },
+        "answer": "3",
+        "order": 27,
+        "median": 2.204781432,
+        "stddev": 1.247555541
+      },
+      {
+        "id": "49",
+        "text": { "common": "Stability" },
+        "answer": "3",
+        "order": 28,
+        "median": 3.373058016,
+        "stddev": 0.7308361333
+      },
+      {
+        "id": "50",
+        "text": { "common": "Taking individual responsibility" },
+        "answer": "3",
+        "order": 29,
+        "median": 3.385036017,
+        "stddev": 0.729758287
+      },
+      {
+        "id": "54",
+        "text": { "common": "Working in collaboration with others" },
+        "answer": "3",
+        "order": 30,
+        "median": 3.504892548,
+        "stddev": 0.6398516423
+      },
+      {
+        "id": "2",
+        "text": { "common": "Action oriented" },
+        "answer": "2",
+        "order": 31,
+        "median": 3.182707783,
+        "stddev": 0.7414651075
+      },
+      {
+        "id": "8",
+        "text": { "common": "Being careful" },
+        "answer": "2",
+        "order": 32,
+        "median": 3.297779509,
+        "stddev": 0.721817971
+      },
+      {
+        "id": "11",
+        "text": { "common": "Being decisive" },
+        "answer": "2",
+        "order": 33,
+        "median": 3.280022884,
+        "stddev": 0.7333204925
+      },
+      {
+        "id": "17",
+        "text": { "common": "Being people oriented" },
+        "answer": "2",
+        "order": 34,
+        "median": 3.323092158,
+        "stddev": 0.7719721827
+      },
+      {
+        "id": "19",
+        "text": { "common": "Being quick to take advantage of opportunities" },
+        "answer": "2",
+        "order": 35,
+        "median": 3.155788266,
+        "stddev": 0.7910802406
+      },
+      {
+        "id": "21",
+        "text": { "common": "Being results oriented" },
+        "answer": "2",
+        "order": 36,
+        "median": 3.402746414,
+        "stddev": 0.6924228714
+      },
+      {
+        "id": "29",
+        "text": { "common": "Emphasis on professional growth" },
+        "answer": "2",
+        "order": 37,
+        "median": 3.640229705,
+        "stddev": 0.5835093756
+      },
+      {
+        "id": "31",
+        "text": { "common": "Fast moving" },
+        "answer": "2",
+        "order": 38,
+        "median": 3.078259813,
+        "stddev": 0.7687488044
+      },
+      {
+        "id": "37",
+        "text": { "common": "Individual goals are transparent" },
+        "answer": "2",
+        "order": 39,
+        "median": 3.090594345,
+        "stddev": 0.9397403977
+      },
+      {
+        "id": "40",
+        "text": { "common": "Making your numbers" },
+        "answer": "2",
+        "order": 40,
+        "median": 3.194500771,
+        "stddev": 0.8527745846
+      },
+      {
+        "id": "41",
+        "text": { "common": "Not being constrained by many rules" },
+        "answer": "2",
+        "order": 41,
+        "median": 2.395910707,
+        "stddev": 1.044083104
+      },
+      {
+        "id": "43",
+        "text": { "common": "Predictability" },
+        "answer": "2",
+        "order": 42,
+        "median": 2.931484545,
+        "stddev": 0.8854629428
+      },
+      {
+        "id": "46",
+        "text": { "common": "Risk-taking" },
+        "answer": "2",
+        "order": 43,
+        "median": 2.843108659,
+        "stddev": 0.8711670703
+      },
+      {
+        "id": "51",
+        "text": { "common": "Taking initiative" },
+        "answer": "2",
+        "order": 44,
+        "median": 3.303996319,
+        "stddev": 0.7403525539
+      },
+      {
+        "id": "53",
+        "text": { "common": "What you know matters more than who you know" },
+        "answer": "2",
+        "order": 45,
+        "median": 2.07754721,
+        "stddev": 1.153373214
+      },
+      {
+        "id": "16",
+        "text": { "common": "Being market driven" },
+        "answer": "1",
+        "order": 46,
+        "median": 2.704610857,
+        "stddev": 0.9381360182
+      },
+      {
+        "id": "18",
+        "text": { "common": "Being precise" },
+        "answer": "1",
+        "order": 47,
+        "median": 3.202731585,
+        "stddev": 0.7136453554
+      },
+      {
+        "id": "23",
+        "text": { "common": "Being supportive" },
+        "answer": "1",
+        "order": 48,
+        "median": 3.521348496,
+        "stddev": 0.6202686763
+      },
+      {
+        "id": "27",
+        "text": { "common": "Confronting conflict directly" },
+        "answer": "1",
+        "order": 49,
+        "median": 3.101074538,
+        "stddev": 0.9032905675
+      },
+      {
+        "id": "52",
+        "text": { "common": "Urgency" },
+        "answer": "1",
+        "order": 50,
+        "median": 2.606840978,
+        "stddev": 0.9817675335
+      },
+      {
+        "id": "5",
+        "text": { "common": "Being aggressive" },
+        "answer": "0",
+        "order": 51,
+        "median": 0.8133620243,
+        "stddev": 0.8965000891
+      },
+      {
+        "id": "32",
+        "text": { "common": "Hard-driving" },
+        "answer": "0",
+        "order": 52,
+        "median": 2.843729747,
+        "stddev": 1.108178542
+      },
+      {
+        "id": "36",
+        "text": { "common": "High levels of conflict" },
+        "answer": "0",
+        "order": 53,
+        "median": 0.8046163721,
+        "stddev": 0.9958574145
+      }
+    ],
+    "analyses": [
+      { "groupId": "9", "analysis": 4 },
+      { "groupId": "12", "analysis": 4 },
+      { "groupId": "14", "analysis": 4 },
+      { "groupId": "20", "analysis": 4 },
+      { "groupId": "22", "analysis": 4 },
+      { "groupId": "25", "analysis": 4 },
+      { "groupId": "26", "analysis": 4 },
+      { "groupId": "33", "analysis": 4 },
+      { "groupId": "38", "analysis": 4 },
+      { "groupId": "42", "analysis": 4 },
+      { "groupId": "45", "analysis": 4 },
+      { "groupId": "1", "analysis": 3 },
+      { "groupId": "3", "analysis": 3 },
+      { "groupId": "4", "analysis": 3 },
+      { "groupId": "6", "analysis": 3 },
+      { "groupId": "7", "analysis": 3 },
+      { "groupId": "10", "analysis": 3 },
+      { "groupId": "13", "analysis": 3 },
+      { "groupId": "15", "analysis": 3 },
+      { "groupId": "24", "analysis": 3 },
+      { "groupId": "28", "analysis": 3 },
+      { "groupId": "30", "analysis": 3 },
+      { "groupId": "34", "analysis": 3 },
+      { "groupId": "35", "analysis": 3 },
+      { "groupId": "39", "analysis": 3 },
+      { "groupId": "44", "analysis": 3 },
+      { "groupId": "47", "analysis": 3 },
+      { "groupId": "48", "analysis": 3 },
+      { "groupId": "49", "analysis": 3 },
+      { "groupId": "50", "analysis": 3 },
+      { "groupId": "54", "analysis": 3 },
+      { "groupId": "2", "analysis": 2 },
+      { "groupId": "8", "analysis": 2 },
+      { "groupId": "11", "analysis": 2 },
+      { "groupId": "17", "analysis": 2 },
+      { "groupId": "19", "analysis": 2 },
+      { "groupId": "21", "analysis": 2 },
+      { "groupId": "29", "analysis": 2 },
+      { "groupId": "31", "analysis": 2 },
+      { "groupId": "37", "analysis": 2 },
+      { "groupId": "40", "analysis": 2 },
+      { "groupId": "41", "analysis": 2 },
+      { "groupId": "43", "analysis": 2 },
+      { "groupId": "46", "analysis": 2 },
+      { "groupId": "51", "analysis": 2 },
+      { "groupId": "53", "analysis": 2 },
+      { "groupId": "16", "analysis": 1 },
+      { "groupId": "18", "analysis": 1 },
+      { "groupId": "23", "analysis": 1 },
+      { "groupId": "27", "analysis": 1 },
+      { "groupId": "52", "analysis": 1 },
+      { "groupId": "5", "analysis": 0 },
+      { "groupId": "32", "analysis": 0 },
+      { "groupId": "36", "analysis": 0 }
+    ]
+  }
+}

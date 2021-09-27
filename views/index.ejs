@@ -9,17 +9,29 @@
 
     <body>
         <%- include('partials/menu') %>
+        
+        <div class="container">
 
-        <section>
-            <div>Enter your username of Torre</div>
-            <div>Ex. sebasoviedo69</div>
-            
-            <form id="user-form" method="post" action="/results">
-                <input type="text" name="user[id]">
-                <button class="btn" type="submit">Generate</button>
-            </form>
-        </section>       
+            <section class="row d-flex pt-5 pb-0 ">
+                <div class="col-12 pt-5 pb-0 text-center">
+                    <h2>Enter your username at Torre</h2>
+                    <div>Ex. sebasoviedo69</div>
+                </div>
+            </section>
 
+            <section class="row d-flex pt-5 pb-0">
+                <div class="col-12 d-flex justify-content-around">
+                    <form id="user-form" class="col-12 col-md-4 col-sm-10 d-flex justify-content-around flex-column" method="post" action="/results">
+                        <input class="mb-3" type="text" name="user[id]">
+                        <button class="m-auto btn" type="submit">Generate</button>
+                    </form>
+                </div>
+                
+            </section>       
+    
+
+        </div>
+        
         <%- include('partials/footer') %>
         <%- include('partials/scripts') %>
         
