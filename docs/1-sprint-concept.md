@@ -113,3 +113,5 @@
         - Call Stellar Service - 1h
         - Generate Blockchain Code - 4h
         - Render te token id on result endpoint - 1h
+
+# Improving

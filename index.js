@@ -3,7 +3,7 @@ const express = require("express");
 const morgan = require("morgan");
 const path = require("path");
 const bodyParser = require("body-parser");
-const request = require("request");
+const request = require("request-promise-native");
 const jimp = require("jimp");
 
 const info = {
@@ -24,22 +24,10 @@ app.use(bodyParser.json());
 // get user picture from torre
 async function GetUserInfo(userId) {
   var torreUrl = 'https://torre.bio/api/bios/'
-  var pictureUrl = "https://res.cloudinary.com/torre-technologies-co/image/upload/v0/origin/starrgate/users/profile_c68ab3f19fa618f6b0ead245ad5b67482830d68f.jpg";
-  
-  request(torreUrl+userId, function (error, response, body){
+  var result = await request(torreUrl+userId);
+  var res = JSON.parse(result);
 
-    body = JSON.parse(body);
-    console.log(userId);
-
-    if(body.code !== undefined && body.code == "011002"){
-      return res.json({"success": false, "msg": "Error, user not found."});
-    }else{ 
-      pictureUrl = body.person.picture;
-      //return pictureUrl;
-    }
-  });
-  return pictureUrl;
-
+  return res.person.picture;
 }
 
 // generate image
@@ -50,7 +38,7 @@ async function ProcessImage(info) {
   const imgSavePath = path.join(__dirname, 'public/imgs/result/', imgName);
   const srcImgPath = path.join('/imgs/result/', imgName);
   const image = await jimp.read(imgReadPath);
-  image.blur(2, function(err){
+  image.blur(8, function(err){
     if (err) throw err;
   })
   .write(imgSavePath);
@@ -74,7 +62,6 @@ app.post('/results', async function(req, res){
   if (userInfo.id != undefined){
     
     userInfo.picture = await GetUserInfo(userInfo.id);
-
     var imgPath = await ProcessImage(userInfo);
     res.render('results', {imgPath: imgPath});
   }
