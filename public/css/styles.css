@@ -58,7 +58,11 @@ input{
     border: 1px solid #cddc39;
 }
 
-
 .btn:hover {
    color: rgba(255,255,255,.5);
 }
+
+
+#logo > img{
+    display: none;
+  }

@@ -9,13 +9,16 @@
 
     <body>
         <%- include('partials/menu') %>
-        <div>Enter your username of Torre</div>
-        <div>Ex. sebasoviedo69</div>
-        
-        <form id="user-form" method="post" action="/results">
-            <input type="text" name="user[id]">
-            <button class="btn" type="submit">Generate</button>
-        </form>
+
+        <section>
+            <div>Enter your username of Torre</div>
+            <div>Ex. sebasoviedo69</div>
+            
+            <form id="user-form" method="post" action="/results">
+                <input type="text" name="user[id]">
+                <button class="btn" type="submit">Generate</button>
+            </form>
+        </section>       
 
         <%- include('partials/footer') %>
         <%- include('partials/scripts') %>
