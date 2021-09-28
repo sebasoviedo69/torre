@@ -27,7 +27,11 @@ async function GetUserInfo(userId) {
   var result = await request(torreUrl+userId);
   var res = JSON.parse(result);
 
-  return res.person.picture;
+  if(res.code !== undefined && res.code == "011002"){
+    throw 1;
+  }else{ 
+    return res.person.picture;
+  }
 }
 
 // generate image
@@ -38,12 +42,30 @@ async function ProcessImage(info) {
   const imgSavePath = path.join(__dirname, 'public/imgs/result/', imgName);
   const srcImgPath = path.join('/imgs/result/', imgName);
   const image = await jimp.read(imgReadPath);
+
   image.blur(8, function(err){
     if (err) throw err;
   })
   .write(imgSavePath);
 
   return srcImgPath;
+}
+
+// handle errors
+function HandleErrors(errorCode) {
+
+  switch (errorCode) {
+    case 1:
+      return("Error getting user info");
+      break;
+
+    case 2:
+      return("Error generating image");
+      break;
+      
+    default:
+      return("Unknown error");
+  }
 }
 
 // routes
@@ -59,11 +81,16 @@ app.post('/results', async function(req, res){
   const userInfo = Object.create(info);
   userInfo.id = req.body.user.id;
 
-  if (userInfo.id != undefined){
-    
+  try {
+
     userInfo.picture = await GetUserInfo(userInfo.id);
     var imgPath = await ProcessImage(userInfo);
     res.render('results', {imgPath: imgPath});
+
+  } catch (errorCode) {
+
+    msg = HandleErrors(errorCode);
+    res.render('error', {msg: msg});
   }
 });
 
