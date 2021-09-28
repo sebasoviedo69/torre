@@ -37,16 +37,29 @@ async function GetUserInfo(userId) {
 // generate image
 async function ProcessImage(info) {
 
-  const imgName = info.id + '_result.png';
-  const imgReadPath = info.picture;
-  const imgSavePath = path.join(__dirname, 'public/imgs/result/', imgName);
-  const srcImgPath = path.join('/imgs/result/', imgName);
-  const image = await jimp.read(imgReadPath);
 
-  image.blur(8, function(err){
-    if (err) throw err;
-  })
-  .write(imgSavePath);
+    const imgName = info.id + '_result.png';
+    const imgReadPath = info.picture;
+    const imgSavePath = path.join(__dirname, 'public/imgs/result/', imgName);
+    const srcImgPath = path.join('/imgs/result/', imgName);
+    const image = await jimp.read(imgReadPath);
+
+    // get random image
+    const randomImageUrl = "https://picsum.photos/200/300";
+    const randomImage = await jimp.read(randomImageUrl);
+
+  try {
+
+    randomImage.resize(image.getWidth(), image.getHeight())
+    .opacity(.5);
+
+    image.blur(8)
+    .composite(randomImage, 0, 0)
+    .write(imgSavePath);
+  
+  } catch (error) {
+    throw 2;
+  } 
 
   return srcImgPath;
 }
