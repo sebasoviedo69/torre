@@ -14,7 +14,7 @@ const info = {
 
 // app setup
 const app = express();
-//app.use(morgan("combined"));
+app.use(morgan("combined"));
 app.set("views", path.join(__dirname, "views"));
 app.set("view engine", "ejs");
 app.use(express.static("public"));
