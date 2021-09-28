@@ -103,7 +103,7 @@ app.post('/results', async function(req, res){
   } catch (errorCode) {
 
     msg = HandleErrors(errorCode);
-    res.render('error', {msg: msg});
+    res.render('default', {msg: msg});
   }
 });
 
