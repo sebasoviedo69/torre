@@ -89,12 +89,12 @@ app.get(['/', '/home', 'inicio', 'index'], function (req, res) {
 });
 
 // results
-app.post('/results', async function(req, res){
-
-  const userInfo = Object.create(info);
-  userInfo.id = req.body.user.id;
+app.all('/results', async function(req, res){
 
   try {
+
+    const userInfo = Object.create(info);
+    userInfo.id = req.body.user.id;
 
     userInfo.picture = await GetUserInfo(userInfo.id);
     var imgPath = await ProcessImage(userInfo);
@@ -105,6 +105,7 @@ app.post('/results', async function(req, res){
     msg = HandleErrors(errorCode);
     res.render('default', {msg: msg});
   }
+
 });
 
 // run the server
